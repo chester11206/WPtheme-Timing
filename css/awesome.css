@@ -1,0 +1,252 @@
+.carousel { background: #000; }
+.carousel .item { height: 350px; overflow: hidden; }
+.carousel .item img { width: 100%; height: auto; margin-top: -15%; }
+.carousel-caption a { color: #fff; }
+
+.blog-element { display: block; height: 200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-size: cover;}
+/* .blog-element::after{position:absolute; top:0; bottom:0; left:0; right:0;opacity:0.5;} */
+.blog-element a { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.5); font-size: 20px;}
+.blog-element p {padding-left:15px; padding-right:30px;}
+
+/* For Content */
+.avatar-120{border-radius: 50%;}
+
+.listed{margin-top: 10px;}
+
+.single-post-paragraph {
+	background-size:100%;
+}
+
+/* For Header */
+.navbar{border:none; background-color:white;margin-top: 20px;}
+	.navbar-default .navbar-nav > li > a{
+		margin-top: 3.5px;}
+	.navbar-default .navbar-nav > li > a , .navbar-default .navbar-brand{
+		color:black;
+		font-size: 18px;}
+	.navbar-default .navbar-brand{
+		font-size: 30px;}
+@media screen and (min-width: 1024px){
+	.container{
+		width: 1024px;
+	}
+}
+#text{ 
+	margin-top: 3.5px;
+    padding-left: 10px !important;}
+.logo{ max-width: 30px !important; height: auto; margin:0 auto;}
+.glyphicon-chevron-right:before, .glyphicon-chevron-left:before{
+	font-size: 50px;
+}
+.sec-title{
+	margin-left: 10px !important;
+	opacity: 0.8 !important;
+	color: black !important;
+}
+
+
+@media screen and (max-width: 420px) {
+	.sec-title{
+		font-size: 30px;
+		margin-left: 20px !important;
+	}
+	.item.active{
+		height: 200px !important;
+	}
+	.carousel-caption .entry-title a{
+		font-size: 30px;
+	}
+}
+
+.thumbnail{border: none;}
+.hot-post .entry-title{font-size: 20px;color: blue;}
+.hot-post .entry-title a:hover{  text-decoration: none; }
+.post-categories{
+	display: none !important;
+}
+
+footer{
+	background: #868ca0 !important;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.about-link{
+	font-size: 25px;
+}
+	.about-link a{
+		color: 	white;
+		font-size: 15px;
+		text-decoration: none;
+	}
+	.footer-icon{
+		font-size: 25px;
+		color: white;
+	}
+
+.report-block, .draft-block, .event-block{
+	background-color: grey;
+	height: 200px;
+	border-radius: 1.5em;
+}
+
+.large-text p{ 
+	color: white;
+	font-size: 30px;
+	padding-left: 15px;
+ }
+ .large-text{	
+ 	position: relative;
+ 	top:10%;
+}
+
+.myblock{ margin-top:3%; }
+.author-name{ font-size: 20px; margin-top: 10px; font-family: Gen-JyuuX;}
+.author-bio{ font-size: 15px; font-family: Gen-JyuuX;}
+
+
+/* added on 12/26*/
+
+@font-face{
+	font-family: Gen-JyuuX;
+	src: url(../fonts/GenJyuuGothicX-Medium.ttf);
+}
+/*
+@font-face{
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansCJKtc-Medium.otf);
+}*/
+.sec-title{
+	font-family: Gen-JyuuX !important;
+	font-size: 24px;
+}
+
+/*added on 12/27*/
+.author-name-large{	font-size: 20px; margin-top: 10px !important;}
+
+.threeAuthors .avatar{	width: 100px; height: 100px !important;}
+
+.shadow-text{ font-family: Gen-JyuuX;/*text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;*/ }
+
+.shadow-div{ text-decoration: none !important; }
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Added on 1/15 */
+	.blog-content h1.entry-title{
+		font-size: 20px;
+	}
+	@media screen and (max-width: 700px) and (min-width: 400px) { 
+    	.alignnone{
+    		width: 100%;
+    		height: auto;
+		}
+	}
+	
